@@ -46,9 +46,6 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-set list
-set listchars=tab:?\ ,eol:?
-
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -63,8 +60,6 @@ nnoremap k gk
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
-
-nnoremap ; :
 
 au FocusLost * :wa
 
